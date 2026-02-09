@@ -53,7 +53,7 @@ PRODUCT_PACKAGES += \
     libSemTelephonyProps \
     libexynoscamera3 \
     libfloatingfeature \
-    libprotobuf-cpp-full-21.7 \
+    libprotobuf-cpp-full-21.7-u \
     libril_sem \
     libsec-ril \
     libstork_shared \

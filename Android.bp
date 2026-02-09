@@ -213,7 +213,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libprotobuf-cpp-full-21.7",
+    name: "libprotobuf-cpp-full-21.7-u",
     owner: "samsung",
     strip: {
         none: true,
@@ -221,7 +221,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libprotobuf-cpp-full-21.7.so",
+                "proprietary/vendor/lib64/libprotobuf-cpp-full-21.7-u.so",
             ],
             shared_libs: [
                 "libz",
@@ -320,7 +320,7 @@ cc_prebuilt_library_shared {
                 "libfloatingfeature",
                 "libsemnativecarrierfeature",
                 "libc++",
-                "libprotobuf-cpp-full-21.7",
+                "libprotobuf-cpp-full-21.7-u",
                 "libc",
                 "libm",
                 "libdl",
